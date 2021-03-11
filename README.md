@@ -1,10 +1,10 @@
 # Linux Program Test Case Checker
 
-This is a simple shell script written for checking a program's correctness by checking its outputs with some sample outputs. 
+This is a simple shell script written for automating the process of comparing a program's outputs with sample inputs and outputs. The script can be used to check the correctness of a program. 
 I wrote this for checking my programming assignments. I did not debug very throughoutly so use it with caution.
 
 # Description & How to use
-1. I hard coded some of the file names and directories in the script. Configure the directories and rename your testcases and programs under the following rule so that it works with my script:
+1. I hard coded some of the file names and directories in the script. Configure the directories and rename your testcases and programs under the following rule so that they work with my script:
     - The program must have .exe as suffix (I know linux doesn't use exe as the extension for executable programs. I just do it for convenience's sake.)
     - The sample test cases must be put in a folder, in which the folder must be put in the same directory as the program
     - The sample test cases must be named in the following rule : (input/output)(program name without .exe suffix)_\(integer).txt, in which the integer should start from 1
@@ -18,5 +18,5 @@ I wrote this for checking my programming assignments. I did not debug very throu
     - The first parameter: the program name without .exe suffix
     - The second parameter: number of test cases
     - The third parameter: the folder name
-    - As an example, to run the script for the foobar.exe program above, if the folder is named as "testcases" the command would be "./test.sh foobar 2 testcases"
+    - As an example, to run the script for the foobar.exe program above, if the test case folder is named as "testcases", the command would be "./test.sh foobar 2 testcases"
 4. The result will be echo'd on console. If there are any errors when the script tries to run the test cases, the program will create a text file testError.txt and write the errors onto that file
