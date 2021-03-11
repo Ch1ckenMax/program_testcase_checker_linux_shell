@@ -1,6 +1,6 @@
 # Linux Program Test Case Checker
 
-This is a simple shell script written for automating the process of comparing a program's outputs and sample outputs. The script can be used to check the correctness of a program. 
+This is a simple shell script written for automating the process of comparing a program's outputs and sample outputs. The script can be used to check the correctness of a program by checking if the outputs match the expected outputs.
 I wrote this for checking my programming assignments. I did not debug very throughoutly so use it with caution.
 
 # Description & How to use
