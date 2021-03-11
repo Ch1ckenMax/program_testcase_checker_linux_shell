@@ -16,7 +16,7 @@ I wrote this for checking my programming assignments. I am not a professional so
 2. Download the script, put the script under the same path as the program
 3. Run the script with 3 parameters:
     - The first parameter: the program name
-    - The second parameter: number of test cases
-    - The third parameter: the folder name
-    - As an example, to run the script for the foobar program above, if the test case folder is named as "testcases", the command would be ```./test.sh foobar 2 testcases```
+    - The second parameter: the folder name
+    - The third parameter: number of test case pairs
+    - As an example, to run the script for the ```foobar``` program above, if the test case folder is named as ```testcases```, the command would be ```./test.sh foobar 2 testcases```
 4. The result will be echo'd on console. If there are any errors when the script tries to run the test cases, the program will create a text file testError.txt and write the errors onto that file
