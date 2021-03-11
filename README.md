@@ -7,7 +7,7 @@ I wrote this for checking my programming assignments. I am not a professional so
 # Description & How to use
 1. I hard coded some of the file names and directories in the script. Configure the directories and rename your testcases under the following rule so that they work with my script:
     - The sample test cases must be put in a folder, in which the folder must be put in the same directory as the program
-    - The sample test cases must be named in the following rule : (input/output)(program name)_\(integer).txt, in which the integer should start from 1
+    - The sample test cases must be named under the following rule : (input/output)(program name)_\(integer).txt, in which the integer should start from 1
       - For example, you have a program ```foobar``` and two pair of testcases.
       - You should create a folder under the same path as foobar.exe
       - inside the folder
